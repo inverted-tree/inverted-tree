@@ -8,18 +8,23 @@ git log --since=1970 | awk '{print $1}' | wc -l > /dev/null
 # sorry, I piped them to /dev/null to save disk space.
 ```
 
-I prefer reproducible things. The rest is incidental.
-```bash
-set -euo pipefail
+I prefer [reproducible things](https://github.com/inverted-tree/nixos-config/). Everything else is incidental.
+```nix
+{ config, ... }@args:
+let
+  inherit (args) inputs;
+in {
+  imports = [ ../github-profile.nix ];
 
-alias editor="vim"
-alias system="nix"
-alias build="ninja"
+  environment.variables.EDITOR = "nvim"
 
-# policy:
-#   - if it isn't reproducible, it isn't done
-#   - if it needs a badge, it probably doesn't
-#   - if it works, commit before asking why
+  environment.systemPackages = with config; [
+    dotfiles
+    nixos
+  ];
+  
+  system.stateVersion = "25.11";
+}
 ```
 
 Minimal description, maximum signal.
