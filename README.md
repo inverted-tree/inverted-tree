@@ -29,47 +29,17 @@ in {
 
 Minimal description, maximum signal.
 ```haskell
--- not a library, just an interface promise
 module Profile where
 
 type Determinism = Bool
-type Taste = "plain"
+type Taste = String
 
 data Tooling = Vim | NixOS | Ninja deriving (Eq, Show)
 data Output  = Dotfiles | Configurations | Simulations | BuildSystems
 
 author :: [Tooling] -> [Output] -> (Determinism, Taste)
-author _ _ = (True, "plain")
-```
-
-A few notes for the curious:
-```bash
-# dotfiles:
-#   predictable inputs → predictable edits
-# nix:
-#   state described, not inferred
-# ninja:
-#   do the minimum necessary; do it fast
-# c:
-#   the language God intended
-# rust:
-#   for days when you can’t check every printf()
-#   and someone starts shouting about memory safety
-# simulations:
-#   floating point will have opinions; that’s fine
-```
-
-FAQ (rarely asked, still answered):
-```text
-Q: Where are the top languages?
-A: Hidden behind an interface. Implementation detail.
-
-Q: Why no contribution heatmap?
-A: Rate limiting applied at /dev/null.
-
-Q: Is there a theme?
-A: Determinism over decoration.
+author _ _ = (True, "✨fancy✨")
 ```
 
 If you need something specific, check the repositories.
-Everything else is left as an exercise to the reader.
+Everything else is left as an _exercise to the reader_.
