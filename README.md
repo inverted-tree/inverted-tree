@@ -1,6 +1,6 @@
 <h1>
     Hi, nerd.
-    <img align="right" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazluempoejV4ZzI0MXRnc3p2aWx3dmIyNzk3bTNpZmh0cWtpdzhwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/uQ9YH6rSAaS6NlPlnX/giphy.gif" width="50">
+    <img align="right" src="./saucer.gif" width="50">
 </h1>
 
 Cloud engineer by day, homelab architect by night.
@@ -15,36 +15,36 @@ At home, same instinct, no ticket queue.
 <div align="center">
     &nbsp;&nbsp;&nbsp;
     <a href="https://azure.microsoft.com/" title="Microsoft Azure">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" alt="Azure" width="48"/>
+        <img src="./azure.svg" alt="Azure" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://developer.hashicorp.com/terraform" title="Hashicorp Terraform">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="Terraform" width="48"/>
+        <img src="./terraform.svg" alt="Terraform" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://nixos.org/" title="NixOS">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nixos/nixos-original.svg" alt="NixOS" width="48"/>
+        <img src="./nix.svg" alt="NixOS" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://github.com/features/actions" title="GitHub Actions">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="Actions" width="48"/>
+        <img src="./actions.svg" alt="Actions" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;
     <a href="https://isocpp.org/" title="C++">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" width="48"/>
+        <img src="./cplusplus.svg" alt="C++" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://rust-lang.org/" title="Rust">
-        <img src="https://www.svgrepo.com/show/374056/rust.svg" alt="Rust" width="48"/>
+        <img src="./rust.svg" alt="Rust" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://www.lua.org/" title="Lua">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" alt="Lua" width="48"/>
+        <img src="./lua.svg" alt="Lua" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://www.python.org/" title="Python">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="48"/>
+        <img src="./python.svg" alt="Python" width="48"/>
     </a>
     &nbsp;&nbsp;&nbsp;
 </div>
